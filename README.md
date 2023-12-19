@@ -2,8 +2,8 @@
 
 This is a sample application that needs some work done to it.  Think of these as your tickets:
 
-1. Write unit tests to validate the three possible outcomes of DataApp.DataManager.FetchAndStoreData
-2. Change DataApp.Program.Main to execute the 11 statements(FetchAndStoreData for 1-10 and 27) in parallel and wait for them all to complete before printing "Complete".
+1. Write unit tests to validate the three possible outcomes of DataApp.DataManager.ConsolidateDataFromSources
+2. Change DataApp.Program.Main to execute the 11 statements(ConsolidateDataFromSources for 1-10 and 27) in parallel and wait for them all to complete before printing "Complete".
 
 
 # Rules

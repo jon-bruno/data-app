@@ -11,7 +11,12 @@ internal class DataManager
         _dataStorage = new DataStorage();
     }
 
-    public int FetchAndStoreData(int dataId)
+    /// <summary>
+    /// Consolidate the data from the DataFetcher sources into a centralized data store.
+    /// Returns -1 if an invalid dataId (less than 0) is provided, -2 if the data was null or whitespace,
+    /// or 0 if we successfully consolidated
+    /// </summary>
+    public int ConsolidateDataFromSources(int dataId)
     {
         if (dataId < 0)
         {
