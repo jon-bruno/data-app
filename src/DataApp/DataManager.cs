@@ -1,6 +1,6 @@
 ﻿namespace DataApp;
 
-internal class DataManager
+public class DataManager
 {
     private DataFetcher _dataFetcher;
     private DataStorage _dataStorage;
@@ -13,9 +13,10 @@ internal class DataManager
 
     /// <summary>
     /// Consolidate the data from the DataFetcher sources into a centralized data store.
-    /// Returns -1 if an invalid dataId (less than 0) is provided, -2 if the data was null or whitespace,
-    /// or 0 if we successfully consolidated
     /// </summary>
+    /// <returns>-1 if an invalid dataId (less than 0) is provided, -2 if the data fetched from the supplied ID was null or whitespace,
+    /// or 0 if we successfully consolidated.
+    /// </returns>
     public int ConsolidateDataFromSources(int dataId)
     {
         if (dataId < 0)
