@@ -1,4 +1,4 @@
-﻿using DataApp;
+﻿namespace DataApp;
 
 public class Program
 {
@@ -7,10 +7,10 @@ public class Program
         var manager = new DataManager();
         for (int i = 0; i <= 10; i++)
         {
-            Console.WriteLine(manager.FetchAndStoreData(i));
+            Console.WriteLine($"Consolidated dataId {i}. Result=" + manager.ConsolidateDataFromSources(i));
         }
         
-        Console.WriteLine(manager.FetchAndStoreData(27));
+        Console.WriteLine("Consolidated dataId 27. Result=" + manager.ConsolidateDataFromSources(27));
         
         Console.WriteLine("Completed");
     }
