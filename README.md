@@ -19,6 +19,6 @@ Add or modify any other code (including adding/changing class names, variables, 
 
 The solution should still compile successfully and pass all unit tests.
 
-All resources are available for use (Google, StackOverflow, previous code you've written, etc).
+All resources are available for use (Google, StackOverflow, previously written code, etc).
 
 Bring a copy of the solution to the technical interview, where we will review it together.  Be prepared to explain any changes made.
