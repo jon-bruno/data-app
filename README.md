@@ -9,7 +9,7 @@ This is a sample application that needs some work done to it.  Think of these tw
 
 # Rules
 
-You can not break any exising functionality.
+You can not break any existing functionality.
 
 There are two places, in DataApp.DataFetcher and DataApp.DataStorage, that have code blocks that you must not change. Do not change any code between the comment lines `// Implementation locked - do not change` and `// End of locked implementation`. 
 
